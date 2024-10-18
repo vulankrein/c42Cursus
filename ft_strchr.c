@@ -6,9 +6,11 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 13:56:16 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/10 18:35:25 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/18 21:32:17 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int i)
 {

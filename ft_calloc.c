@@ -6,7 +6,7 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 14:38:55 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/10 18:35:34 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 17:00:23 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_calloc(size_t count, size_t size)
 {
-	void *ptr;
+	void	*ptr;
 
 	ptr = malloc(count * size);
 	if (ptr == NULL)

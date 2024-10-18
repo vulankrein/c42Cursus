@@ -6,7 +6,7 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 13:56:27 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/15 02:11:19 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 17:02:59 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strrchr(const char *str, int c)
 {
-	int		i;
+	int	i;
 
 	i = ft_strlen(str);
 	if (c == 0)

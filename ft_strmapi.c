@@ -6,7 +6,7 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 04:28:33 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/15 05:09:22 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 17:31:57 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	unsigned int	i;
-	char			*str;
+	int		i;
+	char	*str;
 
 	if (!s)
 		return (NULL);

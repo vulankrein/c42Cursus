@@ -6,7 +6,7 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/15 01:32:40 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/15 05:04:40 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 17:02:07 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,16 +39,16 @@ void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 
-char    *ft_itoa(int n);
-char    **ft_split(char const *str, char c);
+char	*ft_itoa(int n);
+char	**ft_split(char const *str, char c);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strrchr(const char *str, int c);
-char    *ft_strnstr(const char *haystack, const char *needle, size_t len);
+char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strdup(const char *s1);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
-void	ft_striteri(char *s, void (*f)(unsigned int, char*));
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 
 #endif

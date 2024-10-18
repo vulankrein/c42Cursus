@@ -6,7 +6,7 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 14:13:35 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/10 18:35:08 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 18:20:14 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	size_t i;
+	size_t	i;
 
 	if (!dst && !src)
 		return (0);

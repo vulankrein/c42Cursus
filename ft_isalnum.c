@@ -6,13 +6,16 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 13:55:59 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/15 01:52:49 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 14:19:37 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isalnum(int c)
+#include "libft.h"
+
+int	ft_isalnum(int c)
 {
-    if ((c>='0' && c<='9') || (c>='a' && c<='z') || (c>='A' && c<='Z'))
-    return 1;
-    return 0;
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0'
+			&& c <= '9'))
+		return (1);
+	return (0);
 }

@@ -6,13 +6,13 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 13:56:11 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/09 16:05:20 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 14:23:07 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
-    if(c>='0'&& c<='9')
-    return 1;
-    return 0;
+	if (c >= '0' && c <= '9')
+		return (1);
+	return (0);
 }

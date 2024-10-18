@@ -6,7 +6,7 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 16:07:59 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/15 02:37:05 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 17:36:18 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
-	size_t srcsize;
-	size_t i;
+	size_t	srcsize;
+	size_t	i;
 
 	srcsize = ft_strlen(src);
 	i = 0;

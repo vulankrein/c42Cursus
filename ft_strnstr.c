@@ -6,19 +6,19 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 17:40:29 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/15 01:39:02 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 17:27:19 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strnstr(const char *haystack, const char *needle, size_t len)
+char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
-	size_t h;
-	size_t n;
+	size_t	h;
+	size_t	n;
 
 	h = 0;
-	if (needle[h]  == '\0')
+	if (needle[h] == '\0')
 		return ((char *)haystack);
 	while (haystack[h])
 	{

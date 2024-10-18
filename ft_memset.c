@@ -6,15 +6,15 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 14:07:39 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/10 18:35:37 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 17:01:17 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void *ft_memset(void *b, int c, size_t len)
+void	*ft_memset(void *b, int c, size_t len)
 {
-	unsigned char *p;
+	unsigned char	*p;
 
 	p = (unsigned char *)b;
 	while (len > 0)

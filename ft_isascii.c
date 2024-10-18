@@ -6,13 +6,13 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 13:56:08 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/10 18:35:50 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 14:22:24 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
-	return (1);
+		return (1);
 	return (0);
 }

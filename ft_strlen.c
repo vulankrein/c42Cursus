@@ -6,7 +6,7 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 13:56:20 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/15 01:43:55 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 17:36:06 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 size_t	ft_strlen(const char *s)
 {
-    int i;
+	int	i;
 
-    i=0;
-    while (s[i])
-    {
-        i++;
-    }
-    return i;
+	i = 0;
+	while (s[i])
+	{
+		i++;
+	}
+	return (i);
 }

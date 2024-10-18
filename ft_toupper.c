@@ -6,13 +6,13 @@
 /*   By: nozturk <nozturk@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 13:56:34 by nozturk           #+#    #+#             */
-/*   Updated: 2024/10/10 18:35:22 by nozturk          ###   ########.fr       */
+/*   Updated: 2024/10/17 17:02:19 by nozturk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_toupper(int c)
+int	ft_toupper(int c)
 {
-    if (c >= 'a' && c <= 'z')
-        return (c-32);
-        return c;
+	if (c >= 'a' && c <= 'z')
+		return (c - 32);
+	return (c);
 }
